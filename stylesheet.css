@@ -1,0 +1,150 @@
+.container{
+    margin:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header_img{
+    margin-top: 0px;
+    padding: 0px;
+    background-image: url(background.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    filter:blur(0px);
+    height:400px;
+    width:100%;
+    
+}
+.header_bottom{
+    top:29%;
+    z-index:2;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    margin-left: 220px;
+    color:white;
+}
+.header_bottom_text1{
+    text-align: center;
+}
+.header_bottom_text2{
+  font-size: 20px;
+}
+.header_content{
+  z-index: 2;
+  
+}
+.header_title{
+    margin-top:0px;
+    margin-left: 10px;
+    position: absolute;
+    top:2%;
+    z-index:2;
+    color:white;
+}
+.navbar{
+    position: absolute;
+    top:20%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+
+
+.navbaritem1{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color:white;
+    
+}
+.navbaritem1:hover{
+    color: blueviolet;
+}
+
+.navbaritem2{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color:white;
+}
+.navbaritem2:hover{
+    color: azure;
+    color: blueviolet;
+}
+
+
+.navbaritem3{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color:white;
+}
+.navbaritem3:hover{
+    color: azure;
+    color: blueviolet;
+}
+
+
+.body{
+    display: flex;
+    flex direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+} 
+
+div.d {
+  text-align: justify;
+} 
+
+.hero-image {
+  background-image:url("anytimefitnessyewtee.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+img {
+  border: 5px solid #663399;
+}
